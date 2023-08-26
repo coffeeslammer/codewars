@@ -26,3 +26,11 @@ console.log(duplicates("colloquial"));
 // Test.assertEquals(onlyDuplicates("hello"), "ll");
 // Test.assertEquals(onlyDuplicates("colloquial"), "ollol");
 // Test.assertEquals(onlyDuplicates("foundersandcoders"), "ondersndoders");
+
+//TOP codewar solution
+// function onlyDuplicates(str) {
+//   return str
+//     .split("")
+//     .filter((e) => str.indexOf(e) != str.lastIndexOf(e))
+//     .join("");
+// }
