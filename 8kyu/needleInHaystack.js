@@ -12,8 +12,8 @@
 
 // Note: In COBOL, it should return "found the needle at position 6"
 
-function findNeedle(array) {
-  return `found the needle at position ${array.findIndex(
+function findNeedle(haystack) {
+  return `found the needle at position ${haystack.findIndex(
     (n) => n === "needle"
   )}`;
 }
