@@ -7,6 +7,6 @@ function spacify(str) {
   for (s of str) {
     spaced += s + " ";
   }
-  return spaced;
+  return spaced.trim();
 }
 console.log(spacify("hello world"));
